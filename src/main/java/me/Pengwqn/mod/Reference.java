@@ -11,9 +11,9 @@ public class Reference {
 	
 	public static enum PenItems{
 
-		RCRYSTAL("rcrystal", "ItemRCrystal"),
-		GCRYSTAL("gcrystal", "ItemGCrystal"),
-		BCRYSTAL("bcrystal", "ItemBCrystal");
+		RCRYSTAL("rcrystal", "RCrystal"),
+		GCRYSTAL("gcrystal", "GCrystal"),
+		BCRYSTAL("bcrystal", "BCrystal");
 		
 		private String unlocalizedName;
 		private String registryName;
@@ -37,9 +37,14 @@ public class Reference {
 	
 	public static enum PenBlocks{
 
-		RCBLOCK("rcblock", "BlockRCrystal"),
-		GCBLOCK("gcblock", "BlockGCrystal"),
-		BCBLOCK("bcblock", "BlockBCrystal");
+		RCBLOCK("rcblock", "RCrystal"),
+		GCBLOCK("gcblock", "GCrystal"),
+		BCBLOCK("bcblock", "BCrystal"),
+		
+		// CRYSTAL ORES
+		RCORE("rcore", "RCOre"),
+		GCORE("gcore", "GCOre"),
+		BCORE("bcore", "BCOre");
 		
 		private String registryName;
 		private String unlocalizedName;

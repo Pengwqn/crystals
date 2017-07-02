@@ -28,8 +28,8 @@ public class Main {
 		ModItems.init(); // Initializes items 
 		ModItems.register(); // Registers the items in minecraft
 		
-		ModBlocks.init(); // Initializes items 
-		ModBlocks.register(); // Registers the items in minecraft
+		ModBlocks.init(); // Initializes blocks
+		ModBlocks.register(); // Registers the blocks in minecraft
 		
 	}
 	

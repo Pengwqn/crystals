@@ -1,11 +1,11 @@
 package me.Pengwqn.mod.init;
 
-import me.Pengwqn.mod.items.ItemBCrystal;
-import me.Pengwqn.mod.items.ItemGCrystal;
-import me.Pengwqn.mod.items.ItemRCrystal;
-import net.minecraft.client.Minecraft;
+import me.Pengwqn.mod.items.BCrystal;
+import me.Pengwqn.mod.items.GCrystal;
+import me.Pengwqn.mod.items.RCrystal;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
@@ -15,9 +15,9 @@ public class ModItems {
 	public static Item bcrystal;
 	
 	public static void init(){
-		rcrystal = new ItemRCrystal();
-		gcrystal = new ItemGCrystal();
-		bcrystal = new ItemBCrystal();
+		rcrystal = new RCrystal();
+		gcrystal = new GCrystal();
+		bcrystal = new BCrystal();
 		
 	}
 	
@@ -34,7 +34,7 @@ public class ModItems {
 	}
 	
 	private static void registerRender(Item item){
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
 
 }
