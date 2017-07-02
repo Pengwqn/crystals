@@ -2,4 +2,5 @@
     "parent": "pencry:block/BlockBCrystal",
     "textures": {
         "all": "pencry:blocks/blue_crystal"
+    }
 }
