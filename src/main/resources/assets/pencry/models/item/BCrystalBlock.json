@@ -1,0 +1,6 @@
+{
+    "parent": "pencry:block/BCrystalBlock",
+    "textures": {
+        "all": "pencry:blocks/blue_crystal"
+    }
+}

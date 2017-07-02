@@ -1,0 +1,6 @@
+{
+    "parent": "pencry:block/GCrystalBlock",
+    "textures": {
+        "all": "pencry:blocks/green_crystal"
+    }
+}
