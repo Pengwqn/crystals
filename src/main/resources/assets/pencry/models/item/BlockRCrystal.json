@@ -1,0 +1,5 @@
+{
+    "parent": "pencry:block/BlockRCrystal",
+    "textures": {
+        "all": "pencry:blocks/red_crystal"
+}

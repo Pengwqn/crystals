@@ -1,0 +1,15 @@
+[
+{
+  "modid": "pengwqn",
+  "name": "Pengwqn's Random Crystals",
+  "description": "A mod created by Pengwqn that introduces crystals to minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pengwqn"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
