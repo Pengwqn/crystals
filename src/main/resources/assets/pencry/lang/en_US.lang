@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 item.rcrystal.name=Red Crystal
 item.gcrystal.name=Green Crystal
 item.bcrystal.name=Blue Crystal
@@ -8,4 +9,16 @@ tile.bcblock.name=Blue Crystal Block
 
 tile.rcore.name=Red Crystal Ore
 tile.gcore.name=Green Crystal Ore
+=======
+item.rcrystal.name=Red Crystal
+item.gcrystal.name=Green Crystal
+item.bcrystal.name=Blue Crystal
+
+tile.rcblock.name=Red Crystal Block
+tile.gcblock.name=Green Crystal Block
+tile.bcblock.name=Blue Crystal Block
+
+tile.rcore.name=Red Crystal Ore
+tile.gcore.name=Green Crystal Ore
+>>>>>>> 8daf87906cbe3b8ed7784b5023e60e58d537896d
 tile.bcore.name=Blue Crystal Ore
